@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment Form</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div style="backdrop-filter:blur(5px);" class="comment-form">
+        <h2>Comment</h2>
+        <form id="commentForm">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+          
+            <div>
+                <label for="comment">Comment:</label>
+                <textarea required id="Comment" name="comment_text" class="" style="outline: none; height: 200px;" placeholder="enter you comment" maxlength="2000" minlength="3"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
